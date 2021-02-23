@@ -1,0 +1,73 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: rgba(144, 145, 141, 0.877);
+}
+.header{
+    background-color:rgb(63, 62, 62);
+    color:rgb(247, 243, 243);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+img {
+    width:550px;
+    padding-right: 30px;
+}
+
+.main {
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 55% auto;
+    padding: 40px 50px
+}
+
+span{
+    font-size: 30px;
+}
+
+.isi {
+    padding-top: 150px;
+}
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-left: 150px;
+}
+
+button{
+    background-color: black;
+    height: 60px;
+    color:rgb(247, 243, 243);
+    font-size: 25px;
+}
+
+.footer {
+    background-color: rgb(63, 62, 62);
+}
+
+ul {
+    display: grid;
+    list-style-type: none;
+    margin: 0; padding: 0;
+    grid-template-columns: repeat(3, auto);
+}
+
+ul li{
+    padding: 2em;
+    color:lightgrey;
+}
+
+ul li span{
+    display: block;
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    color: black;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+}
